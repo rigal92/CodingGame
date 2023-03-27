@@ -19,13 +19,13 @@ while True:
 
     x, y, h_speed, v_speed, fuel, rotate, power = [int(i) for i in input().split()]
 
-    if x<flat_m:
-        a = -45
-        p = 4
+    if x<flat_m or x>flat_M:
 
-    elif x>flat_M:
-        a = 45
-        p = 4
+        if h_speed
+
+
+
+
     else:
         if h_speed != 0:
             a = int(45 * h_speed/abs(h_speed))
